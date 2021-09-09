@@ -1,13 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27323.2
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet", "DotNet\DotNet.csproj", "{B156689D-45A9-4DF6-9859-C974F06DACFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet", "DotNet\DotNet.csproj", "{B156689D-45A9-4DF6-9859-C974F06DACFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet.Test", "DotNet.Test\DotNet.Test.csproj", "{A0A2C310-7750-4C5F-B3D7-150EF4F3F827}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNet.Test", "DotNet.Test\DotNet.Test.csproj", "{A0A2C310-7750-4C5F-B3D7-150EF4F3F827}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionTestHelper", "FunctionTestHelper\FunctionTestHelper.csproj", "{D1475DA2-BC46-48F7-821D-3DB40F7326FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionTestHelper", "FunctionTestHelper\FunctionTestHelper.csproj", "{D1475DA2-BC46-48F7-821D-3DB40F7326FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5E073B4-9010-4D75-AB3C-4F1BB92A23EC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
